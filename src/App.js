@@ -6,6 +6,8 @@ import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import UserPage from "./pages/UserPage/UserPage";
 import TodoPage from "./pages/TodoPage/TodoPage";
 import Forma from "./components/Forma/Forma";
+import Cristina from "./components/Cristina/Cristina";
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
         <Route path="/users" element={<UserPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/todos" element={<TodoPage />} />
+        <Route path="/cristina" element={<Cristina />} />
       </Routes>
       <Forma/>
     </div>
