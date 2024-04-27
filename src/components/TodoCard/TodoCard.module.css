@@ -1,0 +1,14 @@
+.todoCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 150px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #eee;
+  font-size: 18px;
+}
+
+.todoCard:hover {
+  background-color: #888;
+}
