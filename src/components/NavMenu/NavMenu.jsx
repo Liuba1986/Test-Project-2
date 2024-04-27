@@ -10,6 +10,7 @@ export default function NavMenu() {
       <Link to="/products">Products</Link>
       <Link to="/todos">Todos</Link>
       <Link to="/cristina">Cristina</Link>
+      <Link to="/natalia">Natalia</Link>
     </div>
   );
 }
