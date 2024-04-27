@@ -5,6 +5,7 @@ import Mainpage from "./pages/Mainpage/Mainpage";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import UserPage from "./pages/UserPage/UserPage";
 import TodoPage from "./pages/TodoPage/TodoPage";
+import Forma from "./components/Forma/Forma";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/todos" element={<TodoPage />} />
       </Routes>
+      <Forma/>
     </div>
   );
 }
